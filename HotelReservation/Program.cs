@@ -31,6 +31,7 @@ namespace HotelReservation
                         throw new HotelReservationException(HotelReservationException.ExceptionType.INVALID_CHOICE, "Invalid choice");
                 }
             }
+
             catch (HotelReservationException exception)
             {
                 Console.WriteLine(exception.Message + "\nTry Again");
